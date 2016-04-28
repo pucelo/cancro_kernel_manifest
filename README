@@ -1,0 +1,23 @@
+Minimized android source tree for building the kernel for cancro(MI3W, MI4, M4 LTE)
+
+Usage:
+    mkdir -p ~/cancro_kernel
+    cd ~/cancro_kernel
+
+    repo init -u https://github.com/fangdingjun/cancro_kernel_manifest
+
+    # download the source 
+    repo sync
+    
+    # suppress the error for missing file
+    mkdir -p vendor/xiaomi/cancro
+    touch vendor/xiaomi/cancro/cancro-vendor.mk
+
+    # build the kernel
+    breakfast cancro
+    mka bootimage CONFIG_NO_ERROR_ON_MISMATCH=y
+
+    # install and test the kernel
+    adb reboot bootloader
+    fastboot flash boot out/target/product/cancro/boot.img
+    fastboot continue
