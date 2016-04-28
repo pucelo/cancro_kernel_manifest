@@ -274,7 +274,6 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" /> 
   <!--project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" /> -->
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" /> 
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" /> 
   <!--project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" /> -->
 
 <!-- CMSDK SAMPLES -->
@@ -518,11 +517,12 @@
 <!--
      xiaomi mi4 device
      -->
+  <project path="vendor/cm" name="fangdingjun/android_vendor_cm" /> 
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
   <!--<project name="CyanogenMod/android_device_xiaomi_cancro" path="device/xiaomi/cancro" remote="github" />-->
   <project name="fangdingjun/android_device_xiaomi_cancro" path="device/xiaomi/cancro" remote="github" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <!--<project name="CyanogenMod/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="github" />-->
-  <project name="fangdingjun/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="github" revision="mm_wifi_base"/>
+  <project name="fangdingjun/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="github" revision="cm-13.0"/>
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
 </manifest>
