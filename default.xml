@@ -26,7 +26,7 @@
   <!--project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" /> -->
   <!--project path="art" name="CyanogenMod/android_art" groups="pdk" /> -->
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" /> 
-  <!--project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />-->
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <!--project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />-->
   <!--project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />-->
   <!--project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" /> -->
@@ -267,7 +267,7 @@
   <!--project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" /> -->
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" /> 
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" /> 
-  <!--project path="system/extras/su" name="CyanogenMod/android_system_extras_su" /> -->
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" /> 
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" /> 
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" /> 
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" /> 
@@ -368,7 +368,7 @@
   <!--project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!--project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" /> -->
   <!--project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
-  <!--project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
+  <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> 
   <!--project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!--project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!--project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" /> -->
@@ -507,9 +507,9 @@
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" remote="aosp" /> 
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" /> 
   <!--project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" /> -->
-  <!--project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" /> -->
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" /> 
   <!--project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" /> -->
-  <!--project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" /> -->
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" /> 
   <!--project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" /> -->
   <!--project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!--project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" /> -->
